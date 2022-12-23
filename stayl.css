@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border ;
+    
+    /*start navbar */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    margin: 40px;
+    padding: 30px;
+}
+nav .navleft{
+    position: relative;
+}
+nav .navleft input{
+    border:none;
+    width:90px ;
+    transition:all 1s  ;
+text-align: center;
+background-color:rgb(243, 246, 249);
+color:#e6dddd;
+padding: 20px;
+border-radius: 50px;
+font-size: 15px; 
+margin-right: 20px;
+}
+nav .navleft input:focus{
+outline:none ;
+}
+nav .navleft input:hover{
+    width:150px ;
+    }
+nav .navleft .fa-magnifying-glass{
+    color:rgb(144, 154, 164);
+left: 20px;
+top: 15px;
+right: 50px;
+position: absolute;
+Left: 10px; 
+top: 20px;
+padding-right: 30px;
+}
+
+
+
+nav .navmiddle input{
+border-color: black;
+padding: 10px;
+width: 50%;
+margin: 10px;
+border: 2px solid black;
+
+
+}
+nav .navright a  {
+    color:rgb(163, 176, 187);
+    justify-content: center;
+    text-decoration: none;
+    width: 50%;
+    margin: 5px;
+}
+nav .navright a:hover{
+    color:#e6dddd;
+}
+
+nav .navright .a i{
+    display: flex;
+    color: rgb(42, 120, 122);
+    margin: 10px;
+}
+/* end navbar */
+.home {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.home a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.home a:hover{
+    color:blueviolet;
+
+}
+    
+    /* start section main */
+    .main{
+        width: 100%;
+    
+        display: flex;
+        text-align: left;
+        background: url(hero_1.jpg) no-repeat;
+        padding: 200px 950px;
+    }
+    .main h2{
+        font-size: 60px;
+        
+    }
+    .main-btn{
+        color: aliceblue;
+        background-color: rgb(124, 32, 128);
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 600px;
+        display: inline-block;
+        padding: 0.9375em 2.1875em;
+        letter-spacing:1px ;
+        margin-bottom: 40px;
+        transition: 0.7s;
+    }
+    .main-btn:hover{
+        background-color: rgb(63, 11, 78);
+        transform: scale(1.1 );
+
+    }
+    /* end section main */
+
+
+
+    /* start section shiamaa */
+
+ 
+          .shiamaa{
+            display: flex;
+            justify-content: space-around;
+            
+    }
+     .solid{
+        display: flex;
+        margin: 10px;
+        justify-content: space-around;
+    }
+    .shiamaa .shiamaa .mm{
+        align-items: flex-end;
+    }
+    .shiamaa i{
+        font-size: xx-large;
+        color: rgb(122, 19, 126);
+        
+    }
+    .shiamaa p {
+        color:rgb(120, 139, 139);
+
+    }
+    .shiamaa .mostafa {
+        display: flex;
+    }
+
+    /* end section shiamaa */
+    
+
+
+
+    /* start section pepole*/
+    
+    .pepole{
+        display: flex;
+        justify-content: center;
+        margin:70px 0 ;
+        }
+      .h h1{
+    font-size: xx-large;
+        margin-top :140px  ;
+        text-align: center;
+      }  
+    .pepole img{
+        filter:drop-shadow(8px 8px 20px rgb(53, 52, 52)) ;
+        transition: all .4s ease;
+    
+    }
+    .pepole img:hover{
+    transform:scale(1, 1.1);
+    }
+    .pepole .women {
+    
+    position: relative;
+    margin: 20px;
+    
+    }
+    .women p{
+    position: absolute;
+    left: 20px;
+    bottom: 60px;
+    font-family: "Sofia", sans-serif;
+      font-size: 15px;
+    color:rgb(200, 207, 212);
+    font-weight: bolder;
+    
+    }
+    .women h4{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size:60px;
+    font-family: "Sofia", sans-serif;
+      font-size: 35px;
+    color:rgb(230, 235, 239);
+    font-weight: bolder;
+    }
+    .pepole .men {
+        margin: 20px;
+        position: relative;
+        
+    }
+    .men p{
+        position: absolute;
+        left: 20px;
+        bottom: 75px;
+        font-family: "Sofia", sans-serif;
+      font-size: 15px;
+        color: white;
+        font-weight: bolder;
+    }
+    .men h4{
+        position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size:50px;
+    color:white;
+    font-weight: bolder;
+    }
+    .pepole .children {
+        margin: 20px;
+        position: relative;
+    }
+    .children p{
+        position: absolute;
+        left: 20px;
+        bottom: 80px;
+        font-family: "Sofia", sans-serif;
+      font-size: 15px;
+        color: white;
+        font-weight: bolder;
+    }
+    .children h4 {
+        position: absolute;
+        left: 20px;
+        bottom: 10px;
+        font-family: "Sofia", sans-serif;
+      font-size: 40px;
+        color:white;
+        font-weight: bolder;
+        
+    }
+  
+/* end section pepole */
+
+
+/* start section */
+.featured    {
+    background-color: rgb(233, 235, 237);
+    
+}
+
+
+.featured i {
+    text-align: center;
+}
+
+.featured h3 {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(32, 28, 28);
+}
+.featured .top {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+    
+}
+.featured .top .TankTop {
+    background: white;
+    margin: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.featured .top .TankTop h6{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    color: darkmagenta;
+}
+.featured .top .TankTop p{
+    text-align: center;
+    color: darkgrey;
+}
+
+.featured .top .Corater {
+    background: white;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.featured .top .Corater h6{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    color: darkmagenta;
+}
+.featured .top .Corater p{
+    text-align: center;
+    color: darkgrey;
+}
+
+.featured .top .Poloshirt{
+    background: white;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.featured .top .Poloshirt h6{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    color: darkmagenta;
+}
+.featured .top .Poloshirt p{
+    text-align: center;
+    color: darkgrey;
+}
+.BigSale .Bi {
+    
+    text-align: center;
+    font-size: x-large;
+    color: rgb(56, 51, 51);
+}
+.BigSale .sale {
+    display: flex;
+    justify-content: space-around;
+}
+.BigSale .sale .less h4{
+    font-size: x-large;
+    color: darkmagenta;
+    margin-right: 20px;
+    margin-top: 40px;
+  padding: 20px;
+}
+.BigSale .sale .less .By {
+    display: flex;
+    margin-left: 20px;
+    
+}
+.BigSale .sale .less .By h6 {
+    color: darkmagenta;
+    font-size: small;
+}
+.BigSale .sale .less .By p{
+    color: darkgrey;
+}
+.BigSale .sale .less .lorem {
+    color: darkslategray;
+}
+
+.BigSale .sale .less  .lorem .lo-btn{
+    color: aliceblue;
+    background-color: rgb(124, 32, 128);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500px;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing:1px ;
+    margin-bottom: 20px;
+    transition: 0.7s;
+    margin-left: 30px;
+
+}
+.BigSale .sale .less  .lorem .lo-btn:hover{
+    background-color: rgb(63, 11, 78);
+        transform: scale(1.1 );
+}
+/* footer start */
+.footer {
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    margin-top: 70px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.footer-left {
+    width: 45%;
+    margin-right: 60px;
+    padding-right: 60px;
+}
+
+.footer-mid {
+    width: 25%;
+}
+
+.footer-right {
+    width: 25%;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.items .item {
+    line-height: 2.5;
+    font-size: 18px;
+    color: #65676b;
+}
+
+.item li {
+    display: flex;
+}
+
+.footer-mid img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.pro {
+    line-height: 1.5;
+}
+.pro p {
+    text-decoration: none;
+    font-size: 20px;
+}
+.pro a{
+    text-decoration: none;
+}
+.contact {
+    align-items: center;
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.contact i {
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #65676b;
+}
+
+.subscribe {
+    margin: 70px 15px;
+}
+
+.subscribe h5 {
+    font-size: 20px;
+}
+
+.subscribe input {
+    border-radius: 4px;
+    padding: 10px;
+    width: 90%;
+    height: 53px;
+    border: 1px solid #afa3a3;
+    font-size: 15px;
+}
+
+.subscribe button {
+    color: white;
+    width: 80px;
+    font-size: 18px;
+    border: none;
+    background-color: #9833f5;
+    border-radius: 4px;
+    position: absolute;
+    top: 3737px ;
+    right: 40px;
+    height: 49px;
+    transition: all 1s ease;
+}
+.subscribe button:hover{
+    transform:scale(1.2);
+}
+.subscribe input:focus {
+    outline: none;
+}
+
+.center {
+    margin-top: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.center a {
+    text-decoration: none;
+}
+
+/* footer end */
+

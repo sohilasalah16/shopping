@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+justify-content: space-between;
+ background-color:white;
+margin: 40px;
+padding:30px;
+}
+nav .navleft{
+    position: relative;
+}
+nav .navleft input{
+    border: none;
+    width:100px ;
+    text-align: center;
+background-color: rgb(243, 246, 249);
+color:#f5f5f5;
+padding: 20px;
+border-radius: 50px;
+font-size: 15px; 
+margin-right: 20px;
+transition:all 1s  ;
+}
+nav .navleft input:focus{
+outline:none ;
+}
+nav .navleft input:hover{
+width:150px ;
+}
+nav .navleft .fa-magnifying-glass{
+    color:rgb(190, 195, 200);
+left: 20px;
+top: 15px;
+right: 50px;
+position: absolute;
+Left: 10px; 
+top: 20px;
+padding-right: 30px;
+}
+nav .navmiddle input{
+    border-color:black;
+padding: 10px;
+width: 50%;
+margin: 10px;
+border: 2px solid black;
+}
+nav .navright a{
+    color:rgb(163, 176, 187);
+justify-content: center;
+text-decoration: none;
+width: 50%;
+margin: 10px;
+}
+nav .navright a:hover{
+    color:#e6dddd;
+}
+.home{
+    display: flex;
+justify-content: center;
+padding: 10px;
+}
+.home a{
+    margin: 10px;
+text-decoration: none;
+color:black;
+}
+.home a:hover{
+    color:blueviolet;
+}
+.nav2 {
+    padding-top:20px ;
+    padding-left:130px ;
+    background-color:rgb(232, 237, 241) ;
+    width:100% ;
+    height:40px ;
+}
+.nav2 .single{
+    color: blueviolet;
+}
+.nav2 a{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+.nav2 a:hover{
+    color:blueviolet;
+}
+section{
+    display: flex;
+}
+.img{
+    margin:50px 80px ;
+}
+h1{
+    font-size:xx-large;
+}
+.texst{
+    margin:100px ;
+}
+p{
+    font-size: large;
+}
+.dol{
+color: blueviolet;
+font-size: xx-large;
+}
+label{
+    font-size: large;
+    padding:0px 10px ;
+} 
+.rang{
+    margin:20px 30px ;
+    border: 1px solid rgb(187, 127, 243);
+    width: 130px;
+    border-radius: 5px;
+    
+}
+.rang input{
+    font-size: medium;
+    border: 1px solid rgb(187, 127, 243);
+ width:40px ;
+ height: 40px;
+ text-align: center;
+ border-radius: 5px;
+ padding:0 1px ;
+ background-color: white;
+}
+.rang .input{
+    border:none;
+}
+.rang .num:hover{
+    background-color: blueviolet;
+}
+.submit{
+    margin: 25px 20px;
+    font-size: larger;
+    color: rgb(225, 218, 218);
+    width: 150px;
+    height:50px ;
+    background-color: rgb(152, 59, 239);
+    border: none;
+    border-radius: 5px;
+    transition:all 1s ;
+}
+.submit:hover{
+    transform:scale( 1.2 );
+}
+.end{
+    background-color: rgb(233, 235, 237);
+}
+.head{
+    text-align: center;
+    margin-top: 3%;
+ padding:20px 100px ;
+}
+
+.product{
+    display: flex;
+    margin:120px 170px ;
+    padding:0px 15px ;
+ }
+ .p-1{
+    margin:0 10px ;
+    background-color: white;
+    border: solid 1px rgb(217, 214, 214) ;
+    height: 350px;
+ }
+ .p-1 p{
+    color: blueviolet;
+    margin:10px 120px ;
+
+ }
+ .p-1 .p2{
+    color:rgb(157, 151, 151);
+    margin:10px 85px ;
+ }
+ .footer {
+    display: flex;
+    justify-content: space-between;
+    padding:0px 70px;
+    margin-top: 120px;
+}
+h3 {
+    font-size: 25px;
+}
+
+.footer-left {
+    width: 40%;
+    margin-right: 60px;
+    padding-right: 60px;
+}
+
+.footer-mid {
+    width: 25%;
+}
+
+.footer-right {
+    width: 25%;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.items .item {
+    line-height: 2.5;
+    font-size: 18px;
+    color: #65676b;
+}
+
+.item li {
+    display: flex;
+}
+
+.footer-mid img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.pro a{
+    line-height: 3;
+    text-decoration: none;
+}
+.pro p {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact {
+    align-items: center;
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+}
+
+.contact a {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.contact i {
+    font-size: 20px;
+    margin: 0 15px;
+}
+.contact p {
+    font-size: 18px;
+    color: #65676b;
+}
+
+.subscribe {
+    margin: 70px 15px;
+}
+
+.subscribe h5 {
+    font-size: 20px;
+}
+
+.subscribe input {
+    border-radius: 4px;
+    padding: 10px;
+    width: 60%;
+    height: 53px;
+    border: 1px solid #afa3a3;
+    font-size: 15px;
+}
+
+.subscribe button {
+    color: white;
+    width: 80px;
+    font-size: 18px;
+    border: none;
+    background-color: #9833f5;
+    border-radius: 4px;
+    position: absolute;
+    top: 2115PX;
+    right:130px ;
+    height: 49px;
+    transition: all 1s ease;
+}
+.subscribe button:hover{
+    transform:scale(1.2);
+}
+.subscribe input:focus {
+    outline: none;
+}
+
+.center {
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.center a {
+    text-decoration: none;
+}
